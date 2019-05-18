@@ -1,0 +1,167 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+/*General rules*/
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(255,255,255,1);
+}
+h1 {
+  font-size:1.5em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+/*Navigation bar styles*/
+nav {
+  background-color: #C12127;
+color: rgba(255,255,255,0.8);
+padding-top: 15px;
+height: 50px;
+}
+nav a,
+.header a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.clearfix {
+  clear: both;
+}
+  /*Header styles*/
+
+.header {
+  position: relative;
+  background-color: rgb(32, 101, 136);
+  background-image: url("/Users/ousmaneyade3/Code/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+  font-size: 1.5em;
+  font-weight: 150;
+  height:600px;
+}
+#horizontal header {
+  height: 50px;
+}
+#horizontal-header div {
+float: left;
+margin: 5px;
+height: 50px;
+}
+.centered-header {
+  position: relative;
+  margin: 0 50px 0;
+}
+#h-image {
+height: 50px;
+}
+#h-image2 {
+  height:50px;
+  background-color: transparent;
+}
+#h-link  {
+height: 50px;
+}
+#h-button {
+  background-color: rgb(31, 82, 111);
+  height:50px;
+  width: 50px;
+  }
+  .form input {
+    background-color: rgb(31, 82, 111);
+    height: 50px;
+    width: 850px;
+  }
+.second-header {
+  width: 500px;
+}
+
+.button {
+  width: 120px;
+  margin: 15px 0 auto;
+  padding:10px;
+  border-radius: 25px;
+  border: none;
+}
+
+.button-yellow {
+background-color: rgb(240, 146, 51);
+}
+.button-red {
+  background-color: rgb(203, 56, 55);
+  }
+.button-blue {
+    background-color: rgb(49, 68, 88);
+  }
+  /* Section dark blue */
+.darkblue-section {
+    background-color: rgb(39, 53, 71);
+  }
+#section2 {
+    width: 1000px;
+    font-weight: 100;
+  }
+#section2 div {
+  float: left;
+  height:450px;
+  width:450px;
+  }
+.right-float {
+    line-height: 2.5em;
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  #img-collab {
+    margin-top: 125px;
+  }
+  /* Light blue */
+  .light-blue {
+    height: 600px;
+    background-image: url("/Users/ousmaneyade3/Code/lab-html-module-exercise-master/starter-code/images/forklift.svg");
+    background-size: cover;
+  }
+  .whitewall h1, .whitewall h3 {
+    color: rgb(83, 88, 98);
+  }
+  .whitewall p, .whitewall article {
+color: rgb(135, 145, 156);
+  }
+  .whitewall a {
+    color: rgb(208, 74, 73);
+  }
+  #float-left {
+    float: left;
+    margin-top: 200px;  
+    margin-left: 20px;
+  }
+  #centered {
+    margin: 75px auto;
+    text-align: center;
+  }
+  #centered h1 {
+    font-weight: 700;
+  }
+  .darkblue-section h1, .light-blue h1 {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 2em;
+  }
+  .boxes{
+
+  }
+  .col-1 {
+float: left;
+  }
+  .col-3 {
+    width: 30%;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+.margin-center {
+  margin: 0 auto;
+}
